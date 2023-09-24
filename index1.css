@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{ background-color: black;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+padding-left: 40px ;
+padding-right: 40px;
+padding-bottom: 30px;
+}
+
+.header{ 
+    gap: 15px;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  solid 4px rgb(255, 255, 255,0.1);
+}
+
+
+
+h1{
+  font-size: 45px;
+  color: gold;
+}
+
+.box{
+    padding: 20px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.kaydol{ 
+    font-size: 20px;
+    color: gold;
+    padding: 8px;
+    border: none;
+    background-color: rgb(255, 255, 255,0.2);
+    border-radius: 25px;
+    
+}
+
+.box:hover{
+    color: gold ;
+}
+
+.kaydol:hover{
+color: black;
+background-color: gold;
+text-shadow: 2 2 gold;
+}
+
+i{
+    padding-right: 5px;
+}
+
+h2{
+    color: aqua;
+    font-size: 45px;
+}
+
+.sayfa p{
+ color: white;
+ max-width: 500px;
+ min-width: 500px;
+}
+
+.sayfa img{
+    max-width: 650px;
+    padding-top:-50px ;
+}
+
+.sayfa{
+    padding: 100px;
+    display: flex;
+}
+.sayfa span{
+    color: gold;
+    text-shadow: 0 0  45px goldenrod;
+}

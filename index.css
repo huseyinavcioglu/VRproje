@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;}
+
+body{
+  background-color: black;
+}
+
+
+
+.all{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-color: gold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 40px;
+  
+}
+
+.all:hover{
+  box-shadow: 0px 0px 140px  gold;
+  transition: 1.5s;
+  
+}
+
+
+
+.yazı1{
+  color: black;
+  margin: 25px;
+  font-size: 22px;
+  font-weight: 1200px;
+}
+
+.all a{
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+}
+
+.all a:hover{
+  color:gold;
+  text-shadow: 0px 0px 4px black;
+}
+
+
+.all input{
+  display: block;
+  width: 100%;
+  height: 44px;
+  border:  color(from black);
+  margin-bottom: 10px;
+  border-radius: 13px;
+}
+
+
+.all button{
+  width: 80%;
+  height: 40px;border: none;
+  border-radius: 38px;
+  margin-bottom: 6px;
+  background-color: black;
+  color: gold;
+}
+
+.all button:hover{
+  background-color: goldenrod;
+  color: black;
+  box-shadow: 0px 0px 4px black;
+}
+
